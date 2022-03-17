@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/img/bg.jpg');
+    background-size: cover cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: 'Baloo Bhaina 2', cursive;
+    transition: 0.5s;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 46px;
+    cursor: pointer;
+}
+
+.left img{
+    width: 99px;
+    filter: invert(100%);
+}
+
+.left div{
+    text-align: center;
+    /* font-size: 20px; */
+    line-height: 11px;
+}
+
+.mid{
+    text-align: center;
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 46px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 4px;
+    font-size: 22px;
+}
+
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 23px 2px;
+}
+
+.navbar li a:hover,
+.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 7px 14px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.btn:hover{
+    background-color: rgb(37, 37, 37);
+    border: 2px solid black;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.541);
+    border: none;
+    border-radius: 10px;
+    margin: 100px 46px;
+    padding: 10px 20px;
+    min-width: 33%;
+    max-width: 33%;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.formGroup input{
+    text-align: center;
+    display: block;
+    width: 387px;
+    padding: 3px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px auto;
+    font-size: 15px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#submitButton{
+    display: block;
+    width: 395px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+#submitButton:hover{
+    color: aquamarine;
+    font-weight: bold;
+}
+
