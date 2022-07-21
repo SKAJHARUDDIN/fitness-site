@@ -123,6 +123,7 @@ body{
 footer{
     background-color: #002A30;
     width: 100%;
+    height: 350px;
 }
 
 .footer-content{
@@ -132,6 +133,7 @@ footer{
 .footer-content span{
     text-align: center;
     color: whitesmoke;
+    margin: auto;
 }
 
 .footer-content span:hover{
